@@ -1,0 +1,38 @@
+#coreMember{
+	padding-top:70px;
+	h1{
+		margin-top:90px;
+		text-align:center;
+		font-size:26px;
+		color:#32357e;
+		font-weight:bold;
+	}
+	.coreMember_ul{
+		width:920px;
+		margin:50px auto 0;
+		li{
+			text-align:center;
+			float:left;
+			width:230px;
+			margin-right: 115px;
+			&:nth-child(3){
+				margin-right:0;
+			}
+			img{
+				height:120px;
+			}
+			h2{
+				font-size:20px;
+				font-weight:bold;
+				margin:20px 0;
+				color:#656565;
+			}
+			p{
+				text-align:left;
+				font-size:14px;
+				color:#656565;
+				line-height:25px;
+			}
+		}
+	}
+}

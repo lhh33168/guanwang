@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>一一快聘</title>
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="Cache-Control" CONTENT="no-cache">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Expires" content="-1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="baidu-site-verification" content="IVZn3xZlKJ" />
+		<!-- 防百度移动端转码 -->
+		<meta http-equiv="Cache-Control" content="no-transform" />
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<link rel="stylesheet" href="/css/base.css">
+		<link rel="stylesheet" href="../css/contactAs.css">
+		<link rel="stylesheet" href="../css/style.css" />
+		<script src="http://cache.amap.com/lbs/static/es5.min.js"></script>
+		<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=e62c219bca1fab7a8c14bf57d73d73de"></script>
+	</head>
+	<body>
+		<header id="pageHeader"></header>
+		<main id="content" role="main">
+			<div class="contact_mapContent">
+				<h1>联系我们</h1>
+				<p>电话：020-22828811</p>
+				<p>邮箱：job@11kpin.com</p>
+				<p>地址：广州市天河区棠下二社涌边路69号1007B房</p>
+				<h2>工作时间</h2>
+				<p>早上：9:10 - 12:00</p>
+				<p>下午：14:00 - 18:30</p>
+				<div id="container" class="mapCss container_wrap"></div>
+			</div>		
+		</main>
+		<footer id="pageFooter"></footer>
+    	<script src="/js/require.js" data-main="/js/contactAs"></script>
+		<script>
+			var map = new AMap.Map('container');
+			map.setZoom(14);              //setzoom 指定缩放级别
+			map.setCenter([113.377014,23.125239]);  //指定地图中心
+			
+			var marker = new AMap.Marker({
+			    position: [113.377014,23.125239]
+			});
+			marker.setMap(map);
+			var circle = new AMap.Circle({
+			    center: [113.377014,23.125239],
+			    radius: 100,
+			    fillOpacity:0.2,
+			    strokeWeight:1
+			})
+			circle.setMap(map);
+			map.setFitView()
+			var info = new AMap.InfoWindow({
+			    content:"天辉商业大厦",
+			    offset:new AMap.Pixel(0,-18)
+			})
+			info.open(map,marker.getPosition())
+		</script>
+	</body>
+</html>

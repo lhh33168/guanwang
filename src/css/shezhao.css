@@ -1,0 +1,20 @@
+/*-----------------message-------------------------*/
+#shezhao { padding-top: 70px; }
+
+#shezhao .messageMain { margin: 90px auto 100px; width: 1050px; }
+
+#shezhao .messageMain .word_tab { width: 300px; padding-left: 80px; font-size: 20px; text-align: right; color: #656565; height: 720px; border-right: 1px solid #ddd; }
+
+#shezhao .messageMain .word_tab .word_tab_title { margin: 30px 0; font-weight: bold; padding-right: 40px; cursor: pointer; display: block; margin-right: -2px; border-right: 3px solid transparent; }
+
+#shezhao .messageMain .word_tab .active { cursor: pointer; color: #775cff; border-right: 3px solid #775cff; }
+
+#shezhao .messageMain .article_detail_box { margin-left: 40px; color: #656565; width: 670px; }
+
+#shezhao .messageMain .article_detail_box .article_detail_content h2 { margin: 30px 0 10px; font-size: 20px; font-weight: bold; }
+
+#shezhao .messageMain .article_detail_box .article_detail_content span { display: block; font-size: 14px; line-height: 22px; padding-bottom: 10px; color: #775cff; }
+
+#shezhao .messageMain .article_detail_box .article_detail_content h3 { font-size: 16px; margin: 20px 0; }
+
+#shezhao .messageMain .article_detail_box .article_detail_content p { font-size: 14px; line-height: 22px; }

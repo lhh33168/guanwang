@@ -1,0 +1,9 @@
+#content .contact_mapContent { text-align: center; }
+
+#content .contact_mapContent h1 { font-size: 26px; margin-top: 150px; margin-bottom: 40px; color: #32357e; font-weight: bold; }
+
+#content .contact_mapContent h2 { margin: 30px 0 10px; font-size: 14px; font-weight: bold; }
+
+#content .contact_mapContent p { font-size: 14px; height: 30px; line-height: 30px; color: #656565; }
+
+#content .contact_mapContent #container { margin-top: 20px; height: 370px; width: 1100px; }

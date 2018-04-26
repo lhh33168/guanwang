@@ -1,0 +1,13 @@
+.footer { height: 370px; width: 100%; background: url("../img/pic_bottom.png") no-repeat; background-size: cover; background-position: center; color: #fff; }
+
+.footer .footer_GW { width: 440px; margin: auto; }
+
+.footer .footer_GW dl { padding: 40px 100px 0 0; float: left; text-align: center; }
+
+.footer .footer_GW dl:nth-child(3) { padding-right: 0; }
+
+.footer .footer_GW dl dt { font-size: 16px; padding-bottom: 20px; }
+
+.footer .footer_GW dl dd { font-size: 14px; color: #e5e0ff; padding-bottom: 10px; cursor: pointer; }
+
+.footer p { margin-top: 30px; text-align: center; font-size: 14px; }
